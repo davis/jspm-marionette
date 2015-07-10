@@ -4,7 +4,9 @@
   "description": "A minimal seed repo for marionette projects",
   "main": "src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "jspm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "open http://localhost:3000/src && serve ."
   },
   "repository": {
     "type": "git",
@@ -22,7 +24,8 @@
   },
   "homepage": "https://github.com/davis/jspm-marionette#readme",
   "devDependencies": {
-    "jspm": "^0.16.0-beta.3"
+    "jspm": "^0.16.0-beta.3",
+    "serve": "^1.4.0"
   },
   "jspm": {
     "directories": {},
