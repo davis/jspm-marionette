@@ -2,9 +2,11 @@
 
 ## Getting started
 
-Clone the repo and run the following:
+Run the following:
 
 ```
+git clone git@github.com:davis/jspm-marionette.git
+cd jspm-marionette
 npm install
 npm start
 ```
