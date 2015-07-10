@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "jspm install",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "open http://localhost:3000/src && serve ."
+    "start": "open http://localhost:3000/src",
+    "poststart": "serve ."
   },
   "repository": {
     "type": "git",
