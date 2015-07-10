@@ -1,0 +1,47 @@
+{
+  "name": "jspm-marionette",
+  "version": "0.1.0",
+  "description": "A minimal seed repo for marionette projects",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davis/jspm-marionette.git"
+  },
+  "keywords": [
+    "es6",
+    "jspm",
+    "marionette"
+  ],
+  "author": "davis <dchk90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davis/jspm-marionette/issues"
+  },
+  "homepage": "https://github.com/davis/jspm-marionette#readme",
+  "devDependencies": {
+    "jspm": "^0.16.0-beta.3"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "backbone": "npm:backbone@^1.2.1",
+      "backbone.babysitter": "github:marionettejs/backbone.babysitter@^0.1.8",
+      "backbone.radio": "npm:backbone.radio@^1.0.0",
+      "backbone.wreqr": "github:marionettejs/backbone.wreqr@^1.3.3",
+      "css": "github:systemjs/plugin-css@^0.1.13",
+      "handlebars": "github:components/handlebars.js@^3.0.3",
+      "hbs": "github:davis/plugin-hbs@master",
+      "jquery": "github:components/jquery@^2.1.4",
+      "marionette": "github:marionettejs/backbone.marionette@^2.4.2",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}

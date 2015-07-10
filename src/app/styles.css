@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.header {
+  padding: 1rem;
+  background: #205373;
+  color: white;
+}
+
+#content {
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  -webkit-font-smoothing: antialiased;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 3rem;
+}
