@@ -31,6 +31,7 @@
   "jspm": {
     "directories": {},
     "dependencies": {
+      "babel-core": "npm:babel-core@^5.7.1",
       "backbone": "npm:backbone@^1.2.1",
       "backbone.babysitter": "github:marionettejs/backbone.babysitter@^0.1.8",
       "backbone.radio": "npm:backbone.radio@^1.0.0",

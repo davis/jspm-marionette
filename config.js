@@ -15,7 +15,8 @@ System.config({
 
 System.config({
   "map": {
-    "babel": "npm:babel-core@5.6.17",
+    "babel": "npm:babel-core@5.7.1",
+    "babel-core": "npm:babel-core@5.7.1",
     "babel-runtime": "npm:babel-runtime@5.6.17",
     "backbone": "npm:backbone@1.2.1",
     "backbone.babysitter": "github:marionettejs/backbone.babysitter@0.1.8",
