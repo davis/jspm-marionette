@@ -11,7 +11,7 @@ npm install
 npm start
 ```
 
-Your browser should open to http://localhost:3000/src/ where you can see your code.
+Your browser should open to http://localhost:3000/src/ where you can see your code (You may have to refresh the page).
 
 Happy coding!
 
