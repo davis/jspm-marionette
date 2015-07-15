@@ -24,11 +24,11 @@ System.config({
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.13",
     "handlebars": "github:components/handlebars.js@3.0.3",
-    "hbs": "github:davis/plugin-hbs@master",
+    "hbs": "github:davis/plugin-hbs@1.0.0",
     "jquery": "github:components/jquery@2.1.4",
     "marionette": "github:marionettejs/backbone.marionette@2.4.2",
     "underscore": "npm:underscore@1.8.3",
-    "github:davis/plugin-hbs@master": {
+    "github:davis/plugin-hbs@1.0.0": {
       "handlebars": "github:components/handlebars.js@3.0.3"
     },
     "github:jspm/nodelibs-path@0.1.0": {
