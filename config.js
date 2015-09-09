@@ -24,7 +24,7 @@ System.config({
     "backbone.wreqr": "github:marionettejs/backbone.wreqr@1.3.3",
     "core-js": "npm:core-js@0.9.18",
     "css": "github:systemjs/plugin-css@0.1.13",
-    "handlebars": "github:components/handlebars.js@3.0.3",
+    "handlebars": "github:components/handlebars.js@4.0.2",
     "hbs": "github:davis/plugin-hbs@1.0.0",
     "jquery": "github:components/jquery@2.1.4",
     "marionette": "github:marionettejs/backbone.marionette@2.4.2",
