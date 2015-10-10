@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/davis/jspm-marionette#readme",
   "devDependencies": {
-    "jspm": "^0.16.0-beta.3",
+    "jspm": "^0.16.12",
     "serve": "^1.4.0"
   },
   "jspm": {
