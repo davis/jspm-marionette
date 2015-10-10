@@ -1,6 +1,6 @@
 'use strict';
 
-import {history} from 'backbone';
+import {history, Model} from 'backbone';
 import Radio from 'backbone.radio';
 import {LayoutView} from 'marionette';
 
@@ -28,9 +28,17 @@ export default LayoutView.extend({
   showView(viewName = 'someView') {
     // defaults to 'someView'
     if (viewName === 'someView') {
-      this.showChildView('content', new SomeView());
+      this.showChildView('content', new SomeView({
+        model: new Model({
+          name: 'someView'
+        })
+      }));
     } else if (viewName === 'anotherView') {
-      this.showChildView('content', new AnotherView());
+      this.showChildView('content', new AnotherView({
+        model: new Model({
+          name: 'anotherView'
+        })
+      }));
     }
   }
 });
