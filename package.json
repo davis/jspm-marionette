@@ -1,6 +1,6 @@
 {
   "name": "jspm-marionette",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A minimal seed repo for marionette projects",
   "main": "src/main.js",
   "scripts": {
