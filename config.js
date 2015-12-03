@@ -23,12 +23,13 @@ System.config({
     "clean-css": "npm:clean-css@3.4.5",
     "core-js": "npm:core-js@1.2.1",
     "css": "github:systemjs/plugin-css@0.1.13",
-    "hbs": "github:davis/plugin-hbs@1.2.0",
+    "handlebars": "github:components/handlebars.js@4.0.5",
+    "hbs": "github:davis/plugin-hbs@1.2.1",
     "jquery": "github:components/jquery@2.1.4",
     "marionette": "github:marionettejs/backbone.marionette@2.4.2",
     "underscore": "npm:underscore@1.8.3",
-    "github:davis/plugin-hbs@1.2.0": {
-      "handlebars": "github:components/handlebars.js@4.0.3"
+    "github:davis/plugin-hbs@1.2.1": {
+      "handlebars": "github:components/handlebars.js@4.0.5"
     },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
