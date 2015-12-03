@@ -12,7 +12,7 @@
   padding: 1rem;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   -webkit-font-smoothing: antialiased;
   font-weight: 100;
